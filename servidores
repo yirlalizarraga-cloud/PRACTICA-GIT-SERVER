@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ServerPro | Proveedores de Servidores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f5f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8e44ad, #d980fa);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 15px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 30px;
+            color: #8e44ad;
+            margin-bottom: 40px;
+        }
+
+        .services, .team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #8e44ad;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #8e44ad;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ServerPro</h1>
+    <p>
+        Somos un equipo especializado en ofrecer soluciones de servidores seguras, eficientes y adaptadas
+        a las necesidades de cada empresa, combinando tecnología, confianza y atención personalizada.
+    </p>
+</header>
+
+<section>
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+
+        <div class="card">
+            <h3>Servidores Dedicados</h3>
+            <p>
+                Ofrecemos servidores físicos exclusivos para cada cliente, ideales para empresas que requieren
+                alto rendimiento, mayor control y máxima seguridad en el manejo de su información.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Servidores en la Nube</h3>
+            <p>
+                Soluciones flexibles y escalables que permiten acceder a la información desde cualquier lugar,
+                reducir costos de infraestructura y asegurar alta disponibilidad del servicio.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Soporte y Administración</h3>
+            <p>
+                Brindamos monitoreo constante, mantenimiento preventivo y soporte técnico, garantizando
+                estabilidad, respaldo de datos y continuidad en las operaciones del negocio.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Equipo del Proyecto</h2>
+    <div class="team">
+
+        <div class="card">
+            <h3>Jania Guadalupe Murillo Cortez</h3>
+            <p>
+                Integrante del equipo 
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Yirla Margarita Lizarraga Sosa</h3>
+            <p>
+                Integrante del equipo 
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>©️ 2026 ServerPro | Proyecto Académico</p>
+</footer>
+
+</body>
+</html>
